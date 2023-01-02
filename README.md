@@ -2,6 +2,9 @@
 ### Introduction
 - 스레드와 뮤텍스를 이용하여 만든 프로그램입니다.
 ### Rules
+|                       |                                                                                                                                                                                                                   |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Allowed functions** | memset, printf, malloc, free, write, usleep, gettimeofday, pthread_create, pthread_detach, pthread_join, pthread_mutex_init, pthread_mutex_destroy, pthread_mutex_lock, pthread_mutex_unlock |
 - 한 명 이상의 철학자가 둥근 테이블에 앉아 다음과 같은 세 행동 중 하나를 취합니다 : 먹기, 생각하기, 잠자기
 - 철학자가 밥을 먹는 도중에는, 생각하거나 잠을 자지 않습니다. 마찬가지로 잠자는 도중에는 밥을 먹거나 생각할 수 없으며, 생각하는 도중에는 밥을 먹거나 잠들 수 없습니다.
 - 철학자들은 둥근 테이블에 앉아있으며, 가운데에는 아주 큰 스파게티 그릇이 놓여 있습니다.
@@ -33,3 +36,4 @@
 - 다시 말하지만, 철학자들이 최대한 죽지 않도록 설계해야 합니다!
 ### Examples
     $> ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat]
+### Development document
