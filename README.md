@@ -1,6 +1,12 @@
 # Philosophers
 ### Introduction
 - 스레드와 뮤텍스를 이용하여 만든 프로그램입니다.
+### Directions
+```
+$> ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep [number_of_times_each_philosopher_must_eat]
+$> ./philo 5 800 200 200
+$> ./philo 5 800 200 200 7
+```
 ### Rules
 |   |   |
 | - | - |
@@ -34,6 +40,4 @@
 - 철학자의 상태는 다른 철학자들의 상태와 뒤엉키거나 섞인 상태로 출력되면 안 됩니다.
 - 철학자의 사망 시점과 이를 출력하기 까지의 틈이 10ms 이상이 되면 안 됩니다.
 - 다시 말하지만, 철학자들이 최대한 죽지 않도록 설계해야 합니다!
-### Examples
-    $> ./philo [number_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [number_of_times_each_philosopher_must_eat]
 ### Development document
